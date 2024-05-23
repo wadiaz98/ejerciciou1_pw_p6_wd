@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/prueba.css" />
+    <script src="../js/prueba.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header></header>
+      <nav></nav>
+      <section>
+        <div class="inicial">
+          <p type="Puntaje:"><label id="puntaje">0</label></p>
+          <p type="Intentos:"><label id="intentos">0</label></p>
+          <h1 id="h1">Selecciona el nombre de Pokemón correcto</h1>
+        </div>
+        <div class="imagen">
+          <img id="img" src="/img/pnegro.jpg" alt="Not found" />
+        </div>
+
+        <div class="opciones">
+          <button id="id0" onclick="comprueba('0')">Keldeo-ordinary</button>
+          <button id="id1" onclick="comprueba('1')">drilbur</button>
+          <button id="id2" onclick="comprueba('2')">ninjask</button>
+          <button id="id3" onclick="comprueba('3')">excadrill</button>
+        </div>
+        <div class="mensaje">
+          <label id="msj"></label>
+          <button onclick="resetea()">Resetea</button>
+        </div>
+      </section>
+      <footer></footer>
+    </div>
+  </body>
+</html>

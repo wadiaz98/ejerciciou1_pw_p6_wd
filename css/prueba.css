@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inicial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(153, 0, 153);
+
+    border-radius: 10px;
+    border-style: dashed;
+    
+}
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border: 2px solid yellow;
+    margin: 20px;
+    width: 500px;
+}
+.opciones{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   background: rgb(239, 239, 239);
+   padding: 5px;
+   
+}
+.mensaje{
+    display: grid;
+    margin: 10px;
+    justify-content: center;
+}
+#msj{
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+ button{
+    margin: 8px;
+    width: 400px;
+    padding: 3px;
+    font-size: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgb(159, 157, 183);
+    background: white;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+p:before, label{
+    content: attr(type);
+    font-weight: bold;
+    font-size: 20px;
+
+}
